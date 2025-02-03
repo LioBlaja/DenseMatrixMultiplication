@@ -1,0 +1,306 @@
+--->Matrix size N=500
+Generating matrix a ...
+Generating matrix b ...
+Start working serial V1 ...
+Serial time V1 0.106067 seconds
+Start working parallel V1 with 4 threads ...
+Parallel time V1 0.047096 seconds
+Speedup = 2.25
+
+*********** V1
+Start working serial V2 ...
+Serial time V2 0.040182 seconds
+Start working parallel V2 with 4 threads ...
+Parallel time V2 0.026335 seconds
+Speedup = 1.53
+
+*********** V2
+Start working serial V3 ...
+Serial time V3 0.041806 seconds
+Start working parallel V3 with 4 threads ...
+Parallel time V3 0.073732 seconds
+Speedup = 0.57
+
+*********** V3
+Start working serial V4 ...
+Serial time V4 0.183636 seconds
+Start working parallel V4 with 4 threads ...
+Parallel time V4 0.262972 seconds
+Speedup = 0.70
+
+*********** V4
+Start working serial V5 ...
+Serial time V5 0.104769 seconds
+Start working parallel V5 with 4 threads ...
+Parallel time V5 0.037585 seconds
+Speedup = 2.79
+
+*********** V5
+Start working serial V6 ...
+Serial time V6 0.163148 seconds
+Start working parallel V6 with 4 threads ...
+Parallel time V6 0.034924 seconds
+Speedup = 4.67
+
+*********** V6
+BEST SERIAL TIME 0.040182 AND ALGORITHM: ikj
+BEST PARALLEL TIME 0.026335 AND ALGORITHM: ikj
+Starting computations for blocked multiplication with N size: 500
+Serial time of serial blocked multiplication 0.087903 seconds
+BLOCKED PARALLEL DATA:
+BEST THREAD NUMBER:2 || BEST CHUNK:31 || BLOCK SIZE: 8 || PARALLEL TIME: 0.016589 || SPEEDUP: 5.298807
+--->Matrix size N=1000
+Generating matrix a ...
+Generating matrix b ...
+Start working serial V1 ...
+Serial time V1 1.210521 seconds
+Start working parallel V1 with 4 threads ...
+Parallel time V1 0.762981 seconds
+Speedup = 1.59
+
+*********** V1
+Start working serial V2 ...
+Serial time V2 0.739904 seconds
+Start working parallel V2 with 4 threads ...
+Parallel time V2 0.274052 seconds
+Speedup = 2.70
+
+*********** V2
+Start working serial V3 ...
+Serial time V3 1.448649 seconds
+Start working parallel V3 with 4 threads ...
+Parallel time V3 1.024971 seconds
+Speedup = 1.41
+
+*********** V3
+Start working serial V4 ...
+Serial time V4 7.254278 seconds
+Start working parallel V4 with 4 threads ...
+Parallel time V4 5.919378 seconds
+Speedup = 1.23
+
+*********** V4
+Start working serial V5 ...
+Serial time V5 1.033898 seconds
+Start working parallel V5 with 4 threads ...
+Parallel time V5 0.564983 seconds
+Speedup = 1.83
+
+*********** V5
+Start working serial V6 ...
+Serial time V6 6.090486 seconds
+Start working parallel V6 with 4 threads ...
+Parallel time V6 0.633358 seconds
+Speedup = 9.62
+
+*********** V6
+BEST SERIAL TIME 0.040182 AND ALGORITHM: ikj
+BEST PARALLEL TIME 0.026335 AND ALGORITHM: ikj
+Starting computations for blocked multiplication with N size: 1000
+Serial time of serial blocked multiplication 0.855609 seconds
+BLOCKED PARALLEL DATA:
+BEST THREAD NUMBER:2 || BEST CHUNK:25 || BLOCK SIZE: 8 || PARALLEL TIME: 0.126818 || SPEEDUP: 6.746737
+--->Matrix size N=1500
+Generating matrix a ...
+Generating matrix b ...
+Start working serial V1 ...
+Serial time V1 9.062116 seconds
+Start working parallel V1 with 4 threads ...
+Parallel time V1 4.108897 seconds
+Speedup = 2.21
+
+*********** V1
+Start working serial V2 ...
+Serial time V2 2.633632 seconds
+Start working parallel V2 with 4 threads ...
+Parallel time V2 0.857555 seconds
+Speedup = 3.07
+
+*********** V2
+Start working serial V3 ...
+Serial time V3 4.895460 seconds
+Start working parallel V3 with 4 threads ...
+Parallel time V3 4.191681 seconds
+Speedup = 1.17
+
+*********** V3
+Start working serial V4 ...
+Serial time V4 46.924317 seconds
+Start working parallel V4 with 4 threads ...
+Parallel time V4 25.470398 seconds
+Speedup = 1.84
+
+*********** V4
+Start working serial V5 ...
+Serial time V5 4.511887 seconds
+Start working parallel V5 with 4 threads ...
+Parallel time V5 2.481133 seconds
+Speedup = 1.82
+
+*********** V5
+Start working serial V6 ...
+Serial time V6 47.223878 seconds
+Start working parallel V6 with 4 threads ...
+Parallel time V6 2.882373 seconds
+Speedup = 16.38
+
+*********** V6
+BEST SERIAL TIME 0.040182 AND ALGORITHM: ikj
+BEST PARALLEL TIME 0.026335 AND ALGORITHM: ikj
+Starting computations for blocked multiplication with N size: 1500
+Serial time of serial blocked multiplication 2.931269 seconds
+BLOCKED PARALLEL DATA:
+BEST THREAD NUMBER:2 || BEST CHUNK:17 || BLOCK SIZE: 8 || PARALLEL TIME: 0.448884 || SPEEDUP: 6.530124
+--->Matrix size N=2000
+Generating matrix a ...
+Generating matrix b ...
+Start working serial V1 ...
+Serial time V1 40.557744 seconds
+Start working parallel V1 with 4 threads ...
+Parallel time V1 15.856226 seconds
+Speedup = 2.56
+
+*********** V1
+Start working serial V2 ...
+Serial time V2 6.575205 seconds
+Start working parallel V2 with 4 threads ...
+Parallel time V2 2.282711 seconds
+Speedup = 2.88
+
+*********** V2
+Start working serial V3 ...
+Serial time V3 12.101562 seconds
+Start working parallel V3 with 4 threads ...
+Parallel time V3 11.707140 seconds
+Speedup = 1.03
+
+*********** V3
+Start working serial V4 ...
+Serial time V4 128.099246 seconds
+Start working parallel V4 with 4 threads ...
+Parallel time V4 69.341475 seconds
+Speedup = 1.85
+
+*********** V4
+Start working serial V5 ...
+Serial time V5 12.981974 seconds
+Start working parallel V5 with 4 threads ...
+Parallel time V5 6.760866 seconds
+Speedup = 1.92
+
+*********** V5
+Start working serial V6 ...
+Serial time V6 122.939025 seconds
+Start working parallel V6 with 4 threads ...
+Parallel time V6 8.200936 seconds
+Speedup = 14.99
+
+*********** V6
+BEST SERIAL TIME 0.040182 AND ALGORITHM: ikj
+BEST PARALLEL TIME 0.026335 AND ALGORITHM: ikj
+Starting computations for blocked multiplication with N size: 2000
+Serial time of serial blocked multiplication 7.103861 seconds
+BLOCKED PARALLEL DATA:
+BEST THREAD NUMBER:2 || BEST CHUNK:25 || BLOCK SIZE: 16 || PARALLEL TIME: 1.035730 || SPEEDUP: 6.858796
+--->Matrix size N=2500
+Generating matrix a ...
+Generating matrix b ...
+Start working serial V1 ...
+Serial time V1 102.133241 seconds
+Start working parallel V1 with 4 threads ...
+Parallel time V1 38.312596 seconds
+Speedup = 2.67
+
+*********** V1
+Start working serial V2 ...
+Serial time V2 11.795213 seconds
+Start working parallel V2 with 4 threads ...
+Parallel time V2 4.828028 seconds
+Speedup = 2.44
+
+*********** V2
+Start working serial V3 ...
+Serial time V3 24.626127 seconds
+Start working parallel V3 with 4 threads ...
+Parallel time V3 23.092392 seconds
+Speedup = 1.07
+
+*********** V3
+Start working serial V4 ...
+Serial time V4 256.124457 seconds
+Start working parallel V4 with 4 threads ...
+Parallel time V4 139.633713 seconds
+Speedup = 1.83
+
+*********** V4
+Start working serial V5 ...
+Serial time V5 94.678497 seconds
+Start working parallel V5 with 4 threads ...
+Parallel time V5 37.329620 seconds
+Speedup = 2.54
+
+*********** V5
+Start working serial V6 ...
+Serial time V6 261.348982 seconds
+Start working parallel V6 with 4 threads ...
+Parallel time V6 20.316970 seconds
+Speedup = 12.86
+
+*********** V6
+BEST SERIAL TIME 0.040182 AND ALGORITHM: ikj
+BEST PARALLEL TIME 0.026335 AND ALGORITHM: ikj
+Starting computations for blocked multiplication with N size: 2500
+Serial time of serial blocked multiplication 15.070969 seconds
+BLOCKED PARALLEL DATA:
+BEST THREAD NUMBER:6 || BEST CHUNK:32 || BLOCK SIZE: 8 || PARALLEL TIME: 2.527513 || SPEEDUP: 5.962766
+--->Matrix size N=3000
+Generating matrix a ...
+Generating matrix b ...
+Start working serial V1 ...
+Serial time V1 209.526099 seconds
+Start working parallel V1 with 4 threads ...
+Parallel time V1 74.833372 seconds
+Speedup = 2.80
+
+*********** V1
+Start working serial V2 ...
+Serial time V2 22.840588 seconds
+Start working parallel V2 with 4 threads ...
+Parallel time V2 10.824605 seconds
+Speedup = 2.11
+
+*********** V2
+Start working serial V3 ...
+Serial time V3 40.323867 seconds
+Start working parallel V3 with 4 threads ...
+Parallel time V3 40.172750 seconds
+Speedup = 1.00
+
+*********** V3
+Start working serial V4 ...
+Serial time V4 487.689736 seconds
+Start working parallel V4 with 4 threads ...
+Parallel time V4 331.405418 seconds
+Speedup = 1.47
+
+*********** V4
+Start working serial V5 ...
+Serial time V5 149.458484 seconds
+Start working parallel V5 with 4 threads ...
+Parallel time V5 51.974355 seconds
+Speedup = 2.88
+
+*********** V5
+Start working serial V6 ...
+Serial time V6 477.587681 seconds
+Start working parallel V6 with 4 threads ...
+Parallel time V6 33.694784 seconds
+Speedup = 14.17
+
+*********** V6
+BEST SERIAL TIME 22.840588 AND ALGORITHM: ikj
+BEST PARALLEL TIME 10.824605 AND ALGORITHM: ikj
+Starting computations for blocked multiplication with N size: 3000
+Serial time of serial blocked multiplication 25.335806 seconds
+BLOCKED PARALLEL DATA:
+BEST THREAD NUMBER:4 || BEST CHUNK:1 || BLOCK SIZE: 24 || PARALLEL TIME: 2.965002 || SPEEDUP: 8.544954
