@@ -22,7 +22,7 @@ Implement matrix multiplication variants corresponding to all 6 permutations of 
 - `k-i-j`
 - `k-j-i`
 
-The variants corresponding to `i-j-k` and `i-k-j` have been discussed in **Lecture** and their implementation given in `omp_matrix_mult.c`. Additional reading: [why-loops-do-matter-a-story-of-matrix-multiplication](https://example.com)
+The variants corresponding to `i-j-k` and `i-k-j` have been discussed in **Lecture** and their implementation given in `omp_matrix_mult.c`. Additional reading: [why-loops-do-matter-a-story-of-matrix-multiplication]([https://example.com](https://medium.com/@Styp/why-loops-do-matter-a-story-of-matrix-multiplication-cache-access-patterns-and-java-859111845c25))
 
 For all 6 algorithms, implement serial version and parallel version using OpenMP (first two variants are already given in `omp_matrix_mult.c`). Determine which version has the best serial time and which version has the best parallel time.
 
@@ -32,7 +32,7 @@ Take into account also the case when the size of the matrix is not evenly divisi
 
 Perform experiments to determine which is a good block size for your computer.
 
-Additional reading: [Anatomy of High-Performance Many-Threaded Matrix Multiplication](https://example.com)
+Additional reading: [Anatomy of High-Performance Many-Threaded Matrix Multiplication]([https://example.com](https://www.cs.utexas.edu/~flame/pubs/blis3_ipdps14.pdf))
 
 For all algorithms, work with square matrices `N*N`, where size `N` varies between 1000 and 3000.
 
